@@ -1,0 +1,4 @@
+.tofixed(2)--> para arrendodar numeros decmais o 2 diz quantas casas decimais quero no meu numero.
+valorGasto.toFixed(2));
+
+comparar alguma coisa ===
