@@ -1,0 +1,80 @@
+// media alunos
+
+let nota1 = 10
+let nota2 = 10
+let nota3 = 10
+
+const media = (nota1 + nota2 + nota3)/3;
+
+if(media <= 5 ){
+    console.log("Reprovado")
+}else if(media >= 6){
+    console.log("recuperação")
+}else if(media >= 7){
+    console.log("Aprovado")
+}else if(media >=8 && media <=10){
+    console.log("Parabéns")
+}
+
+//Calculo de Viagem e consumo
+
+const precoCombustivelGasolina = 4.99;
+const precoCombustivelAlcool = 3.99;
+const kmPorLitro = 10;
+let distanciaViagem = 100;
+const tipoCombustivel = "gasolina";
+
+const litrosConsumidos = distanciaViagem / kmPorLitro;
+
+if (tipoCombustivel === "Etanol") {
+    const valorGasto = litrosConsumidos * precoCombustivelAlcool;
+    console.log("Valor gasto na viagem por Km: " + "$" + valorGasto.toFixed(2));
+} else {
+    const valorGasto = litrosConsumidos * precoCombustivelGasolina;
+    console.log("Valor gasto na viagem por Km: " + "$" + valorGasto.toFixed(2));
+}
+
+//Condicionais
+
+let numero = 0;
+let NumeroPar = numero % 2 === 0;
+
+ if(NumeroPar){
+    console.log("numero é Par");
+ } else{
+    console.log("Numero nao é impar")
+ }
+
+// Desconto de Produto
+
+const precoEtiqueta = 100;
+const formaPagemento = 4;
+
+if(formaPagemento === 1){
+    console.log( precoEtiqueta - (precoEtiqueta * 0.10))
+}else if(formaPagemento === 2){
+    console.log( precoEtiqueta - (precoEtiqueta * 0.15))
+}else if(formaPagemento === 3){
+    console.log(precoEtiqueta);
+}else if(formaPagemento){
+    console.log( precoEtiqueta + (precoEtiqueta * 0.10))
+}
+// IMC
+
+const peso = 87.50;
+const altura = 1.70;
+const imc = peso/ Math.pow(altura,2);
+console.log(" Seu IMC é: " + imc.toFixed(2));
+
+if (imc < 18.5){
+    console.log("Seu IMC é:" + imc.toFixed(2) + " Clasificado como Abaixo do peso");
+}else if(imc >= 18.5 && imc <= 25){
+    console.log("Seu IMC é:" + imc.toFixed(2) + " Clasificado como Peso Normal");
+}else if(imc >= 25 && imc <= 30){
+    console.log("Seu IMC é:" + imc.toFixed(2) + " Clasificado como Acima do peso");
+}else if (imc >= 30 && imc <= 40){
+    console.log("Seu IMC é:" + imc.toFixed(2) + " Clasificado como Obeso");
+}else if (imc > 40){
+    console.log("Seu IMC é:" + imc.toFixed(2) + " Clasificado como Vá se tratar....oi. Você ainda ta ai...acho qeue ta morto!!!!");
+}
+    

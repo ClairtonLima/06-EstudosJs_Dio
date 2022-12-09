@@ -1,3 +1,4 @@
+//Condicionais
 
 let numero = 0;
 let NumeroPar = numero % 2 === 0;

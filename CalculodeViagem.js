@@ -1,4 +1,4 @@
-
+//Calculo de Viagem e consumo
 const precoCombustivelGasolina = 4.99;
 const precoCombustivelAlcool = 3.99;
 const kmPorLitro = 10;

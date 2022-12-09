@@ -1,3 +1,5 @@
+// media alunos
+
 let nota1 = 10
 let nota2 = 10
 let nota3 = 10

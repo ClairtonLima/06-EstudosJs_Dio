@@ -1,3 +1,5 @@
+// Desconto de Produto
+
 const precoEtiqueta = 100;
 const formaPagemento = 4;
 
