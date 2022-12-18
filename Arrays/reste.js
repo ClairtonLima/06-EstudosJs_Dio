@@ -1,0 +1,17 @@
+const numeros = []
+
+for (let i = 0; i < 10; i++) {
+   numeros .push(i)
+    
+}
+console.log(numeros)
+
+const numerosPares = []
+for (let i = 0; i < 10; i++) {
+    const numeroPar = i % 2 ===0;
+    if(numerosPares){
+        numerosPares.push(i)
+    }
+    
+}
+console.log(numerosPares)
