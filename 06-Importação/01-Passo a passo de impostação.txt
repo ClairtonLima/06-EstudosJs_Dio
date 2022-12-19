@@ -1,0 +1,27 @@
+
+function gets(){
+    return 10;
+}
+
+function print (texto){
+    console.log(texto);
+}
+
+//Para exportar alguma coisa
+
+module.exports = {gets, print};
+
+//molule.exports.gets = gets;---->pode ser assim tb
+    
+    //Para importar arquivos no JS
+
+const  funcoes = require('./FuncoesAuxuliares');-->nome da pasta
+
+console.log(funcoes.gets())
+
+----------------------------------------------
+//outra forma de fazer o codigo acima.
+
+const  {gets, print} = require('./FuncoesAuxuliares');-->nome da pasta
+
+print(gets());

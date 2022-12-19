@@ -1,0 +1,15 @@
+Instale o node.js
+$ node -v
+v16.18.0
+
+//instalr biblioteca
+npm instal -g http-serve
+
+http-serve
+$ touch index.html--> cria um arquivo html na pasta
+//como abrir o html por meio do http-serve
+http-serve ./nessa pasta
+
+informações
+window.---> é nosso navegador
+documnet----> é o documento em tela o html
