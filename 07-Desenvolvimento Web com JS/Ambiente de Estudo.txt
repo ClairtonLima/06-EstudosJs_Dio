@@ -13,3 +13,14 @@ http-serve ./nessa pasta
 informações
 window.---> é nosso navegador
 documnet----> é o documento em tela o html
+ 
+Adionando o NORMALIZE AO PROJETO
+pode aocntecer de uma interpretação de CSS nos navegadores
+NORMALIZE padroniza os browser
+
+baixa https://necolas.github.io/normalize.css/ ou
+baixa pelo CDN normalize CSS
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ CDN Para Fonte
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap" rel="stylesheet">
